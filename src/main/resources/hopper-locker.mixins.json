@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "package": "dev.worldgen.hopper.locker.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "HopperBlockEntityAccessor",
+    "HopperBlockEntityMixin",
+    "HopperBlockMixin",
+    "HopperScreenHandlerAccessor",
+    "HopperScreenHandlerMixin",
+    "InventoryMixin",
+    "ServerPlayNetworkHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "HandledScreenMixin",
+    "HopperScreenMixin"
+  ]
+}
